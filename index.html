@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jackson Wambali – Full-stack developer and IoT engineer, Tanzania</title>
+<meta name="description" content="Jackson Hamisi Wambali is a full-stack developer, UI/UX designer and IoT engineer in Tanzania, building websites, mobile apps and connected devices for real businesses.">
+<meta name="theme-color" content="#17302a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jackson Wambali – Developer and IoT engineer">
+<meta property="og:description" content="Websites, mobile apps and connected devices for businesses in Tanzania.">
+<meta property="og:image" content="profile.png">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2317302a'/%3E%3Ctext x='32' y='45' font-family='Arial' font-weight='800' font-size='36' fill='%23e9b949' text-anchor='middle'%3EJ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#work">Skip to my work</a>
+
+<header class="site-header">
+  <a class="logo" href="#top">Jackson Wambali</a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+  <nav id="site-nav" class="site-nav">
+    <a href="#work">Work</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a class="btn btn-small" href="Jackson_CV.pdf" download>Download CV</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- Intro -->
+  <section class="intro">
+    <div class="intro-text">
+      <h1 class="name">Jackson<br>Wambali</h1>
+      <p class="intro-lead">I build websites, mobile apps and connected devices for businesses across Tanzania, from safari companies to hospitals and farms.</p>
+      <p class="intro-sub">Full-stack developer, UI/UX designer and IoT engineer with a diploma in Electrical and Computer Engineering. I like owning a project from the first sketch to the server it runs on.</p>
+      <div class="intro-actions">
+        <a class="btn" href="#work">See my work</a>
+        <a class="btn btn-ghost" href="mailto:Jacksonwambali@gmail.com">Email me</a>
+      </div>
+      <p class="status"><span class="dot" aria-hidden="true"></span>Available for freelance projects and full-time roles</p>
+    </div>
+    <figure class="intro-photo">
+      <div class="photo-frame"><img src="profile.png" alt="Portrait of Jackson Wambali" width="488" height="611"></div>
+      <figcaption>Founder of TechNova. Based in Tanzania.</figcaption>
+    </figure>
+  </section>
+
+  <!-- Featured work -->
+  <section id="work" class="section">
+    <div class="section-head">
+      <h2>Selected work</h2>
+      <p>A few projects I'm proud of, with links you can open and try.</p>
+    </div>
+
+    <article class="case">
+      <div class="case-text">
+        <h3>Bird species identifier</h3>
+        <p class="case-meta">Machine learning, Don Bosco KIITEC, Feb – May 2025</p>
+        <p>Upload a photo of a bird and the model tells you the species, whether it's migratory, and shows its habitat and conservation status. Built to support environmental and weather monitoring in Tanzania.</p>
+        <p class="tech">Python, TensorFlow, computer vision, Hugging Face</p>
+        <p class="links"><a href="https://huggingface.co/spaces/Jacksonnavigator7/Bird" target="_blank" rel="noopener">Try the live demo</a></p>
+      </div>
+      <div class="case-shots">
+        <img src="bird-app-interface.jpg" alt="Bird identifier upload screen" loading="lazy" onerror="this.remove()">
+        <img src="bird-app-details.jpg" alt="Bird identifier species details" loading="lazy" onerror="this.remove()">
+      </div>
+    </article>
+
+    <article class="case case-flip">
+      <div class="case-text">
+        <h3>Bongo SMS scam detector</h3>
+        <p class="case-meta">Machine learning and NLP</p>
+        <p>Paste an SMS and it checks for scam patterns in real time using two engines: a trained classifier and a rule set that catches suspicious links, USSD codes and money requests. The interface is in Swahili and the rules still work offline.</p>
+        <p class="tech">Python, Gradio, TF-IDF, SQLite</p>
+        <p class="links"><a href="https://huggingface.co/spaces/Jacksonnavigator7/Sms" target="_blank" rel="noopener">Try the live demo</a></p>
+      </div>
+      <div class="case-shots">
+        <img src="sms-detector-interface.jpg" alt="SMS scam detector input screen" loading="lazy" onerror="this.remove()">
+        <img src="sms-detector-results.jpg" alt="SMS scam detector results screen" loading="lazy" onerror="this.remove()">
+      </div>
+    </article>
+
+    <div class="pair">
+      <article class="mini">
+        <h3>Waleki water monitoring</h3>
+        <p class="case-meta">IoT and web, Oct – Dec 2025</p>
+        <p>Sensors on tanks and wells send water levels to a web dashboard. The usage data it collects is being used to train a model that predicts consumption.</p>
+        <p class="tech">ESP32, sensors, Python, web dashboard</p>
+        <p class="links"><a href="https://waleki.onrender.com/" target="_blank" rel="noopener">Open the dashboard</a></p>
+      </article>
+      <article class="mini">
+        <h3>Uriphytos hospital system</h3>
+        <p class="case-meta">Healthcare software, May – Sept 2025</p>
+        <p>A management system shared by several hospitals that replaces paper patient records with a single digital record for each patient.</p>
+        <p class="tech">Web application, backend, database design</p>
+        <p class="links"><a href="http://iphytosmedsystem.com" target="_blank" rel="noopener">Visit the system</a></p>
+      </article>
+    </div>
+
+    <!-- Client sites -->
+    <div class="clients">
+      <h3 class="sub-head">Websites I build and look after</h3>
+      <ul class="client-list">
+        <li>
+          <a href="https://www.eaglevisionsafaris.co.tz/" target="_blank" rel="noopener">eaglevisionsafaris.co.tz</a>
+          <p>Eagle Vision Safaris. React website with tour enquiries. I handle the hosting and its search ranking on Google.</p>
+        </li>
+        <li>
+          <a href="https://ebbyadventuresandsafaris.co.tz" target="_blank" rel="noopener">ebbyadventuresandsafaris.co.tz</a>
+          <p>Ebby Adventures &amp; Safaris. A complete Laravel 11 site where every tour and page is managed from the database.</p>
+        </li>
+        <li>
+          <a href="https://kiitec.ac.tz/" target="_blank" rel="noopener">kiitec.ac.tz</a>
+          <p>Don Bosco KIITEC. Ongoing improvements and content updates to the college's website.</p>
+        </li>
+      </ul>
+    </div>
+
+    <!-- More projects -->
+    <div class="more">
+      <h3 class="sub-head">More projects</h3>
+
+      <details>
+        <summary><span>Maasai Marketplace</span><span class="kind">Mobile app</span></summary>
+        <p>A marketplace app for HAC with separate buyer, seller and admin views. Buyers can pay with M-Pesa or card through Stripe.</p>
+        <p class="tech">React Native, Expo, Firebase, M-Pesa, Stripe</p>
+      </details>
+
+      <details>
+        <summary><span>NELMA water delivery</span><span class="kind">Mobile app</span></summary>
+        <p>An ordering and sales app for delivering 20-litre drinking water to students' hostels at NM-AIST. Supports more than one language.</p>
+        <p class="tech">React Native, Expo Router, TypeScript</p>
+      </details>
+
+      <details>
+        <summary><span>Smart irrigation and soil monitoring</span><span class="kind">IoT</span></summary>
+        <p>ESP32 controllers read soil sensors over RS485 Modbus and open solenoid valves through relays. Readings go to Firebase, farmers get SMS alerts over GSM, and weather data from OpenWeather helps decide when to water.</p>
+        <p class="tech">ESP32, RS485 / Modbus RTU, relays, Firebase, GSM</p>
+      </details>
+
+      <details>
+        <summary><span>DevGuardian AI</span><span class="kind">AI tool</span></summary>
+        <p>Checks code changes before they're deployed: looks at what each change could affect, runs validation tests and flags anything that isn't ready for production.</p>
+        <p class="tech">Python, FastAPI, LLMs, SQLite</p>
+      </details>
+
+      <details>
+        <summary><span>Self-hosted AI server</span><span class="kind">Infrastructure</span></summary>
+        <p>A local language-model server on an NVIDIA GPU that my apps and other machines can call over a private network, without paying for a cloud API.</p>
+        <p class="tech">Ubuntu, Ollama, NVIDIA GPU, Tailscale, REST API</p>
+      </details>
+
+      <details>
+        <summary><span>Azure Horizon yacht booking</span><span class="kind">Web app</span></summary>
+        <p>A booking system for yacht charters with user accounts and a premium-feeling interface.</p>
+        <p class="tech">React, Vite, FastAPI, SQLite, JWT</p>
+      </details>
+
+      <details>
+        <summary><span>Hotspot voucher system</span><span class="kind">Networking</span></summary>
+        <p>A voucher-based Wi-Fi hotspot on a MikroTik router for a business that sells internet access by time.</p>
+        <p class="tech">MikroTik RouterOS</p>
+      </details>
+
+      <details>
+        <summary><span>Minada catalog</span><span class="kind">Web app</span></summary>
+        <p>A product catalog where mining companies list ore products and buyers react to listings.</p>
+        <p class="tech">React, Firebase Auth, Realtime Database, Storage</p>
+      </details>
+
+      <details>
+        <summary><span>Pata Chumba</span><span class="kind">In progress</span></summary>
+        <p>An app that connects people looking for a room or house to rent with property owners.</p>
+        <p class="tech">Product design, mobile and web</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="section-head">
+      <h2>Experience</h2>
+    </div>
+    <ol class="timeline">
+      <li>
+        <p class="when">Present</p>
+        <div>
+          <h3>Founder and lead developer, TechNova</h3>
+          <p>My own company for electronics, IoT and software projects. I'm also building AI automations to run day-to-day operations.</p>
+          <p class="links"><a href="https://technova-m4cq.onrender.com/" target="_blank" rel="noopener">technova-m4cq.onrender.com</a></p>
+        </div>
+      </li>
+      <li>
+        <p class="when">Dec 2024 – present</p>
+        <div>
+          <h3>Freelance full-stack developer and web designer</h3>
+          <p>Design, build and maintain websites and apps for clients, including Eagle Vision Safaris, Ebby Adventures &amp; Safaris and Don Bosco KIITEC. That covers payments, booking, admin dashboards, hosting and SEO.</p>
+        </div>
+      </li>
+      <li>
+        <p class="when">2025 – present</p>
+        <div>
+          <h3>Software developer and designer, Wise Future</h3>
+          <p>Design and build software, working on both the user interface and the code behind it.</p>
+        </div>
+      </li>
+      <li>
+        <p class="when">Sept – Oct 2025</p>
+        <div>
+          <h3>Electrical and instrumentation intern, Twende Organization</h3>
+          <p>Hands-on work with electrical systems and instrumentation, including testing and troubleshooting.</p>
+        </div>
+      </li>
+      <li>
+        <p class="when">Jul – Sept 2023</p>
+        <div>
+          <h3>Fiber optics and networking intern, Zanzibar Cable Television (ZCTV)</h3>
+          <p>Fiber splicing, router configuration and fixing customer connections in the field.</p>
+        </div>
+      </li>
+      <li>
+        <p class="when">Ongoing</p>
+        <div>
+          <h3>Coding content creator</h3>
+          <p>I post tutorials and tips for beginner developers on Instagram and YouTube as @jacksonnavigator.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Skills & education -->
+  <section id="skills" class="section split">
+    <div>
+      <h2>Skills</h2>
+      <dl class="skills">
+        <dt>Frontend</dt><dd>React, TypeScript, Vite, Tailwind CSS, HTML, CSS, JavaScript</dd>
+        <dt>Mobile</dt><dd>React Native, Expo, Flutter</dd>
+        <dt>Backend</dt><dd>Python (FastAPI, Flask), Laravel, Firebase, SQLite, PostgreSQL, REST APIs, JWT</dd>
+        <dt>Payments</dt><dd>M-Pesa, Stripe</dd>
+        <dt>IoT and hardware</dt><dd>ESP32, Raspberry Pi, sensors, RS485 / Modbus, GSM, relays and wiring</dd>
+        <dt>AI and ML</dt><dd>Model training, computer vision, NLP, Hugging Face, Ollama, Groq</dd>
+        <dt>Infrastructure</dt><dd>Linux servers, Nginx, SSH, Tailscale, Render, Netlify</dd>
+        <dt>Networking</dt><dd>MikroTik and router setup, fiber optic splicing</dd>
+        <dt>Design</dt><dd>UI/UX design, photography, video editing</dd>
+      </dl>
+    </div>
+    <div>
+      <h2>Education</h2>
+      <ul class="edu">
+        <li><h3>Diploma in Electrical and Computer Engineering</h3><p>Don Bosco KIITEC, 2022 – 2025</p></li>
+        <li><h3>Advanced Certificate of Secondary Education</h3><p>Kigonsera Secondary School, 2020 – 2022</p></li>
+        <li><h3>Certificate of Secondary Education</h3><p>St. Anselm Secondary School, 2017 – 2019</p></li>
+      </ul>
+      <h2 class="lang-head">Languages</h2>
+      <p class="langs">English (fluent) and Swahili (native)</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="contact-inner">
+      <h2>Have a project or a role in mind?</h2>
+      <p>Tell me what you need and I'll get back to you.</p>
+      <a class="contact-email" href="mailto:Jacksonwambali@gmail.com">Jacksonwambali@gmail.com</a>
+      <ul class="contact-list">
+        <li><a href="https://wa.me/255627182180" target="_blank" rel="noopener">WhatsApp +255 627 182 180</a></li>
+        <li><a href="https://www.linkedin.com/in/jackson-wambali" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/Jacksonnavigator" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://huggingface.co/Jacksonnavigator7" target="_blank" rel="noopener">Hugging Face</a></li>
+        <li><a href="https://www.instagram.com/jacksonnavigator" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="Jackson_CV.pdf" download>Download my CV (PDF)</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year">2026</span> Jackson Hamisi Wambali</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
